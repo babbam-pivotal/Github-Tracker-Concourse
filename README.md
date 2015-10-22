@@ -19,7 +19,10 @@ Step 2 - Copy the API token for the pseudo user from profile page.
 
 ![apitoken](https://cloud.githubusercontent.com/assets/11538159/10656280/ece9033a-78c8-11e5-94c0-a36383441cd5.png)
 
-Step 3 - Access the GitHub repository that yo uplan to associate with Tracker. Go to Settings > Webhooks & Services > Add Services > PivotalTracker.
+Step 3 - Access the GitHub repository that you plan to associate with Tracker. Go to Settings > Webhooks & Services > Add Services > PivotalTracker.
+
+<img width="596" alt="settings" src="https://cloud.githubusercontent.com/assets/11538159/10656397/e2789f22-78c9-11e5-8bb1-7f42a91b6b7b.png">
+
 Step 4 - Enter the Tracker API token copied in Step 2. Rest of the settings can be left blank for this test. Default setting includes all branches.
 
 Once the above configuration is done, you're ready to start committing!
