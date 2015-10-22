@@ -12,11 +12,6 @@ Aim of this integration is to streamline the following flow -
 5. Deploy to staging
 6. Click Deliver in Tracker
 
-into
-
-1. Commit the changes to my story
-2. Push to GitHub
-
 Configuration:
 
 Step 1 - Create a pseduo user whose sole purpose is to pass commits to Tracker stories. Make sure the this user is a member of ALL projcts you wish to push commits to.
@@ -38,4 +33,17 @@ At this point, we’ve eliminated step 3 from above. Now our workflow looks like
 2. Push to GitHub
 3. Wait for green build
 4. Click Deliver in Tracker
+
+GitHub Concourse Integration:
+
+TBD
+
+So, here's what our development workflow now looks like - 
+
+1. Commit the changes to my story
+2. Push to GitHub
+
+Conclusion:
+
+GitHub will mark stories as finished, and add a comment. CI will then run. If there’s a green build+test, it will deploy code to PCF. The deploy script 'code-deployed.rb' will then run the deliver_stories script shown above, and all stories that have been deployed will be marked as delivered.
 
