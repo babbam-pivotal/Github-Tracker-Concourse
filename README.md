@@ -28,5 +28,14 @@ Once the above configuration is done, you're ready to start committing!
 
 Test:
 
+Make changes to files in the repository used above and tag the Tracker story in the comment section - [(Finishes|Fixes|Delivers) #TRACKER_STORY_ID]
 
-jljlfda
+When you push to GitHub, the post-receive hook will then call back to Tracker and put a comment on the story with a link to the commit on GitHub. Example: [Fixes #1092834]
+
+At this point, we’ve eliminated step 3 from above. Now our workflow looks like this:
+
+1. Commit the changes to my story
+2. Push to GitHub
+3. Wait for green build
+4. Click Deliver in Tracker
+
