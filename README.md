@@ -9,7 +9,7 @@ Aim of this integration is to streamline the following flow -
 3. Click Finish on story in tracker
 4. Wait for green build
 5. Wait for green test
-5. Deploy to staging
+5. Deploy code to PCF
 6. Click Deliver in Tracker
 
 ##Configuration:
@@ -48,7 +48,7 @@ TBD
 
 So, here's what our development workflow now looks like - 
 
-1. Commit the changes to my story
+1. Commit the changes to a story
 2. Push to GitHub
 
 ##Conclusion:
