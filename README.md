@@ -16,6 +16,9 @@ Aim of this integration is to streamline the following flow -
 
 Step 1 - Create a pseduo user whose sole purpose is to pass commits to Tracker stories. Make sure the this user is a member of ALL projcts you wish to push commits to.
 Step 2 - Copy the API token for the pseudo user from profile page.
+
+![apitoken](https://cloud.githubusercontent.com/assets/11538159/10656280/ece9033a-78c8-11e5-94c0-a36383441cd5.png)
+
 Step 3 - Access the GitHub repository that yo uplan to associate with Tracker. Go to Settings > Webhooks & Services > Add Services > PivotalTracker.
 Step 4 - Enter the Tracker API token copied in Step 2. Rest of the settings can be left blank for this test. Default setting includes all branches.
 
