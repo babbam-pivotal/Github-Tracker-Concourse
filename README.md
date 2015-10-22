@@ -27,6 +27,8 @@ Make changes to files in the repository used above and tag the Tracker story in 
 
 When you push to GitHub, the post-receive hook will then call back to Tracker and put a comment on the story with a link to the commit on GitHub. Example: [Fixes #1092834]
 
+<img width="324" alt="commitmsg" src="https://cloud.githubusercontent.com/assets/11538159/10656230/7e640a4a-78c8-11e5-8967-b33e167ebbe0.png">
+
 At this point, we’ve eliminated step 3 from above. Now our workflow looks like this:
 
 1. Commit the changes to my story
