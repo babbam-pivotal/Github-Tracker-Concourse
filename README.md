@@ -21,7 +21,7 @@ Step 4 - Enter the Tracker API token copied in Step 2. Rest of the settings can 
 
 Once the above configuration is done, you're ready to start committing!
 
-Test:
+##Test:
 
 Make changes to files in the repository used above and tag the Tracker story in the comment section - [(Finishes|Fixes|Delivers) #TRACKER_STORY_ID]
 
